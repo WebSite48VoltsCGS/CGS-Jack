@@ -41,4 +41,5 @@ https://openclassrooms.com/fr/courses/7172076-debutez-avec-le-framework-django/7
 15/06/2023
 - Terminer la formation Django
 https://openclassrooms.com/fr/courses/7172076-debutez-avec-le-framework-django/7514338-tirez-le-maximum-de-ce-cours
-
+- Formation Django :
+https://www.youtube.com/watch?v=rHux0gMZ3Eg
