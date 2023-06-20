@@ -1,4 +1,4 @@
-#!/home/jackdu/Documents/django-web-app/env/bin/python3
+#!/Users/phetsinorathfrederic/stage_web_project_2023/django-web-app/env/bin/python3.10
 # -*- coding: utf-8 -*-
 import re
 import sys
