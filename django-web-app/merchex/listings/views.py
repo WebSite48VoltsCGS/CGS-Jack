@@ -2,27 +2,42 @@ from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from django.core.mail import send_mail
 
+def home(request):
+    return render(request, 'listings/home.html')
+
+def news(request):
+    return render(request, 'listings/news.html')
+
+def studios(request):
+    return render(request, 'listings/studios.html')
+
+def bar(request):
+    return render(request, 'listings/bar.html')
+
+def pro_area(request):
+    return render(request, 'listings/pro_area.html')
+
+def contact(request):
+    return render(request, 'listings/contact.html')
+
+def booking(request):
+    return render(request, 'listings/booking.html')
+
+def account(request):
+    return render(request, 'listings/account.html')
+
+def sign_in(request):
+    return render(request, 'listings/signin.html')
+
+def sign_up(request):
+    return render(request, 'listings/base/signup.html')
+
+
+
+"""
 from listings.models import Band
 from listings.forms import BandForm
 from listings.forms import ContactUsForm
-
-test = [
-    '<a href="../accueil/">Accueil</a>',
-    '<a href="../studios/">Studios</a>',
-    '<a href="../concert/">Concert</a>',
-    '<a href="../bar/">Bar</a>',
-    '<a href="../shop/">Shop</a>',
-    '<a href="../programmation/">Programmation</a>',
-    '<a href="../espace_pro/">Espace Pro</a>',
-    '<a href="../contact/">Contact</a>',
-]
-
-test_url = ''
-for url in test:
-    test_url += '<li>' + url + '</li>'
-
-def test(request):
-    return render(request, 'listings/test.html')
 
 def band_list(request):
     bands = Band.objects.all()
@@ -87,28 +102,4 @@ def contact(request):
     else:
         form = ContactUsForm()
     return render(request, 'listings/contact.html', {'form': form})
-
-def about(request):
-    return HttpResponse('<h1>About Us</h1> <p>We love merch!</p>')
-
-def accueil(request):
-    return HttpResponse(test_url)
-
-def studios(request):
-    return HttpResponse(test_url)
-
-def concert(request):
-    return HttpResponse(test_url)
-
-def bar(request):
-    return HttpResponse(test_url)
-
-def shop(request):
-    return HttpResponse(test_url)
-
-def programmation(request):
-    return HttpResponse(test_url)
-
-def espace_pro(request):
-    return HttpResponse(test_url)
-
+"""
