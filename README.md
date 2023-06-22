@@ -43,3 +43,16 @@ https://openclassrooms.com/fr/courses/7172076-debutez-avec-le-framework-django/7
 https://openclassrooms.com/fr/courses/7172076-debutez-avec-le-framework-django/7514338-tirez-le-maximum-de-ce-cours
 - Formation Django :
 https://www.youtube.com/watch?v=rHux0gMZ3Eg
+
+19/06/2023
+- Définition de l'architecture globale du site (pages, onglets, présentation)
+- Travail sur la page d'accueil du Covent Garden Studios
+
+20/06/2023
+- Continuité sur la page d'accueil du Covent Garden Studios
+- Discussion autour de l'architecture de la base de données
+- Travail sur la page "Bar"
+
+21/06/2023
+- Travail sur la page d'accueil (Nos partenaires...)
+- Création d'un carousel sur la page "Bar"
